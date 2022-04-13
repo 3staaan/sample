@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title> My First Website </title>
+    
+    <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1EA1G1Z_k8qjbuVhKp8eycpPb6Tw0Unrs">
+    <script src="midterm.js"> </script> 
+    
+</head>
+<body class="body">
+    <div class="main" id="main">
+                <div class="title">
+                    <h1> Web Engineering</h1>
+                </div>
+            <hr>
+            <div class="information" id="font">
+                
+                <div class="overlay"></div>
+                <div id="circle">
+                    <div class="feature one">
+                        <div>
+                            <h1>Click this button to <br>see a picture of me</h1>
+                            <button id="btn" onclick="show()" class = "button_color"> My Picture</button>
+                        </div>
+                            <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.6435-9/103496874_607126393518436_5061450633911679263_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeH2BO-dLQpXgZ8niFo_tFCUfd0-Q18fygV93T5DXx_KBRli2cdhwdl7Kqr3_CZPi2qyLdGVAnCkNYml6LKee0K6&_nc_ohc=Bm71Ob9nx8QAX_Kf6ba&tn=v0WAxTrjLXyV8YCe&_nc_ht=scontent.fmnl25-1.fna&oh=00_AT_NOgHfHE99kEhabITli8fTgqJ7UlD02Nm3s1FWFjicSw&oe=627C4E6E" id="me">
+                    </div>
+
+                    <div class="feature two">
+                        <div id="shape">
+                            <h2>Click this to hide select features:</h2>
+                            <button onclick="show_hide()" id="Button" class="button_color"> Hide Controls</button>
+                            <h2>Use the following button to change font color:</h2>
+                            <br>
+                                <button onclick="white()" class="button_white">Black/White</button> 
+                                <button onclick="red()" class="button_red"> Red </button>
+                                <button onclick="yellow()" class="button_blue">Blue</button>
+                                <button onclick="orange()" class="button_orange">Orange</button>
+                            <br>
+                            <h2>Click to see some references that I used:</h2>
+                                <button onclick="show_link()" id="link_btn" class="button_color">Show Link</button> 
+                                <div class="links" id="link">
+                                    <p><a href="https://youtu.be/GZfB8yyklaA">How To Change Button Text With JavaScript </p></a>
+                                    <p><a href="https://youtu.be/YrE62Dzg4oM"></p>Show and Hide Element On Click Using JavaScript - How To Code School</a>
+                                    <p><a href="https://youtu.be/zZi49TRVE7w">How to Cheat on Exams</a></p>
+                                </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="feature three">
+                        <div>   
+                            <h1>Hello!</h1>
+                            <h3>Find the necklace to know my name.</h3>
+                        </div>
+                        <img src="https://techwiser.com/wp-content/uploads/2018/11/featy-1.jpg" id="find" usemap="#find_me">
+                        <map name="find_me">
+                            <area shape="circle" coords="435,50,5" alt="black cat" href="https://www.facebook.com/3staan/">
+                            <area shape="circle" coords="580,225,5" alt="black cat" href="https://youtu.be/gvdf5n-zI14">
+                            <area shape="circle" coords="330,60,10" alt="black cat" href="https://youtu.be/gvdf5n-zI14">
+
+                            
+                        </map>
+                    </div>
+
+                    <div class="feature four">
+                        <img src="https://i.pinimg.com/originals/21/08/6a/21086a10e749f90dddf38297b949895d.gif" id="ty">
+                    </div>
+
+                </div>
+        
+            </div>
+            <div id="controls">
+                <button onclick="up_down_btn()"><img src="https://flyclipart.com/thumb2/get-up-arrow-png-pictures-99092.png" id="upBtn"></button>
+                <h2 class="btn_spc" id="spc"> Select features</h2>
+                <button onclick="up_down_btn()"><img src="https://flyclipart.com/thumb2/get-up-arrow-png-pictures-99092.png" id="downBtn"></button>
+            </div>
+    </div>
+
+    
+</body>
+</html>
